@@ -686,5 +686,40 @@ namespace GoogleMapsAPI.NET.API.Places.Enums
         /// </summary>
         [EnumMember(Value = "tourist_attraction")]
         TouristAttraction,
+        /// <summary>
+        /// Landmark
+        /// </summary>
+        [EnumMember(Value = "landmark")]
+        Landmark,
+        /// <summary>
+        /// Administrative area level 6
+        /// </summary>
+        [EnumMember(Value = "administrative_area_level_6")]
+        AdministrativeAreaLevel6,
+        /// <summary>
+        /// Administrative area level 7
+        /// </summary>
+        [EnumMember(Value = "administrative_area_level_7")]
+        AdministrativeAreaLevel7,
+        /// <summary>
+        /// Archipelago
+        /// </summary>
+        [EnumMember(Value = "archipelago")]
+        Archipelago,
+        /// <summary>
+        /// Continent
+        /// </summary>
+        [EnumMember(Value = "continent")]
+        Continent,
+        /// <summary>
+        /// PlusCode
+        /// </summary>
+        [EnumMember(Value = "plus_code")]
+        PlusCode,
+        /// <summary>
+        /// TownSquare
+        /// </summary>
+        [EnumMember(Value = "town_square")]
+        TownSquare,
     }
 }
